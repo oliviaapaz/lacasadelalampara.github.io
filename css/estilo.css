@@ -1,0 +1,74 @@
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+ 
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:'Times New Roman';
+    font-weight: bold;
+    font-size:71px;
+    color: #AF6161;
+}
+
+
+ #container {
+    margin-top:15px;
+    margin-left:5px;
+    width:98.5%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+ }
+
+ .grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 500px  330px;
+    column-gap: 10px;
+    margin-top: 5px;
+    margin-left:5px;
+     
+     }
+    .celda1 {
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+
+    
+    .celda3 {
+    width: 1026px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    }
+
+    .celda3 p {
+     margin-top: 15px;
+     margin-left: 15px;
+     font-family:sans-serif;
+     color: #8E8787
+    }
+    
+   .titulo {
+       margin-left: 10px;
+   }
+    
+#zoom {
+    width: 300px;
+    transition: transform 1s; 
+}
+
+#zoom:hover {
+    transform: scale(1.5);
+}
+
+ /* Make the image fully responsive */
+.carousel-inner img {
+      width: 1026px;
+      height: 608px;
+    }

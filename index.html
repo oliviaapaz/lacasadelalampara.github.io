@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description"
+  content="La casa de la lampara es una tienda online de iluminación en Argentina. Podes comprar online y recibir el producto en tu casa en 
+  muy pocos días">
+	<meta name="keywords"
+	content="lamparas, iluminación">
+	<meta name="olivia paz"
+	content="la casa de la lampara">
+	<title>LA CASA DE LA LAMPARA</title>
+  <link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-indigo.min.css" />
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</head>	
+
+<header>
+<nav class="navbar navbar-expand-lg" style="background-color: #565353;">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#nosotros-section">Quienes somos<span class="sr-only">(current)</span></a>
+      </li>
+      <li>
+        <a class="nav-link" href="#contact-section">Contacto<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+    </form>
+  </div>
+</nav>
+
+</header>
+
+<body>
+<div class="contenedor">
+  <img src="imagenes/logo-lampara.png" width="1348" height="440" />
+  <div class="centrado">La casa de la lampara</div>
+</div>
+
+
+<div class="grid" id="nosotros-section">
+	<div class="celda1">
+		<img id="zoom" src="imagenes/lampara-colgante.jpg" alt="tres lampara de techo" width="300" height="281">
+		<img id="zoom" src="imagenes/lampara-de-mesa.jpg" alt="lampara de mesa" width="300" height="280">
+		<img id="zoom" src="imagenes/lampara-pie.jpeg" alt="lampara de pie" width="300" height="280">
+  </div>	 
+  <div class="celda3">
+	 	<h2 class="titulo">Quienes somos?</h2>
+    <p>Somos una empresa argentina dedicada a la fabricación y venta de lamparas.<br> Nuestras lamparas están elaboradas con
+      productos de la mejor calidad.<br> Contamos con iluminación led, lamparas de techo, de mesa, pared y piso.<br>Podes elegir
+      la iluminación para tu ambiente sin moverte de tu casa. <br> Elegís el producto y nosotros lo enviamos a cualquier punto del país
+    </p> 
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+      
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imagenes/lampara-de-pie.jpeg" alt="Los Angeles">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/lampara-colgante.jpg" alt="Chicago">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/logo-lampara.png" alt="New York">
+        </div>
+      </div>
+      
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+     	</div>	
+  	</div>
+ 
+ <div id="container">
+    <img src="imagenes/casa.jpg" alt="foto casa con lampara de techo" width="449" height="610">
+    <img src="imagenes/lampara-colgante-2.png" alt="foto lampara colgante" width="449" height="610">
+    <img src="imagenes/lampara-de-techo.jpg" alt="foto lampara de techo" width="449" height="610">
+ </div>  
+<!-- Form envio de email-->
+<div width="200%" id="contact-section">
+  <div class="col-md-8 col-md-offset-3" style="padding-top: 20px; font-weight: bold;">
+    <form class="form-horizontal" role="form" method="post" action="index.php">
+      <div class="form-group">
+        <label for="name" class="col-sm-2 control-label">Nombre</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="name" name="first_name" placeholder="Nombre"
+            value="">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="name" class="col-sm-2 control-label">Apellido</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="name" name="last_name" placeholder="Apellido"
+            value="">
+
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="email" name="email" placeholder="ejemplo@dominio.com"
+            value="">
+
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="message" class="col-sm-2 control-label">Mensaje</label>
+        <div class="col-sm-10">
+          <textarea class="form-control" rows="4" name="message"></textarea>
+
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2">
+          <input id="submit" name="submit" type="submit" value="Enviar" class="btn btn-primary">
+        </div>
+      </div>
+      <!-- MODAL SEND EMAIL-->
+      <div class="modal" id="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+          </div>
+        </div>
+        </div>
+      <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2">
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<footer class="mdl-mini-footer">
+  <div class="mdl-mini-footer__left-section">
+    <div class="mdl-logo">2020. La casa de la lampara. Todos los derechos reservados</div>
+    <ul class="mdl-mini-footer__link-list">
+      <li><a href="#">Terminos y condiciones</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
